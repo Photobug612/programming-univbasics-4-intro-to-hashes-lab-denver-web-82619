@@ -15,7 +15,7 @@ def pioneer
 end
 
 def id_generator
- identified {
+ identified = {
    :id => 6
  }
 end
