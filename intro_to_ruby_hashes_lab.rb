@@ -1,20 +1,27 @@
 def new_hash
-  # return an empty hash
+  new_hash = hash.new
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  crayon_count {
+    "blue" => 2,
+    "red" => 4,
+    "orange" => 1
+  }
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  person { :name => 'Grace Hopper'}
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  identify {
+    :id => 6
+  }
 end
 
 def my_hash_creator(key, value)
+  
   # return a hash that includes the key and value parameters passed into this method
 end
 
