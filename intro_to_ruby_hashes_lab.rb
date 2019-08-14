@@ -11,17 +11,15 @@ def my_hash
 end
 
 def pioneer
-  person { :name => 'Grace Hopper'}
+  
 end
 
 def id_generator
-  identify {
-    :id => 6
-  }
+ 
 end
 
 def my_hash_creator(key, value)
-  
+
   # return a hash that includes the key and value parameters passed into this method
 end
 
