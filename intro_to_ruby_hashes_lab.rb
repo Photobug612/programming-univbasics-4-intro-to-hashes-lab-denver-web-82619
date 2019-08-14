@@ -28,11 +28,14 @@ end
 
 def read_from_hash(hash, key)
   hash[key]
-end
+end 
 
 def update_counting_hash(hash, key)
-  if counting_hash[:apples]
-    counting_hash[:apples] += 1
+  hash = {
+    key => value
+  }
+  if hash[key]
+     hash[key] += 1
   else
-    counting_hash[:apples] = 1
+    hash[key] = 1
 end
