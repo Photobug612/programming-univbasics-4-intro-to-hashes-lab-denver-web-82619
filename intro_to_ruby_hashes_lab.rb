@@ -3,7 +3,9 @@ def new_hash
 end
 
 def my_hash
- 
+  hash = {
+    "color" => "blue"
+  }
 end
 
 def pioneer
