@@ -3,11 +3,7 @@ def new_hash
 end
 
 def my_hash
-  crayon_count {
-    "blue" => 2,
-    "red" => 4,
-    "orange" => 1
-  }
+ 
 end
 
 def pioneer
